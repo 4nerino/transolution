@@ -1,0 +1,23 @@
+
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>
+      <img alt="logo" height="40" style="float:right;" src="assets/imgs/cropped-logo-blok.png"/>
+      <button ion-button small [navPush]="ContainersPage">Containers</button>
+      <button ion-button small [navPush]="NewsPage">News</button>
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center color="light">
+  <h2>Track & Trace</h2>
+  <p >
+    <b>Wilt u weten waar uw lucht- of zeevracht <br> zich tijdens het transport zich bevindt?</b><br> Dan kunt u gebruik maken van ons  <br><b>geavanceerd track & trace systeem </b><br><br>
+    Ons track & trace-systeem helpt u uw import- of exportzending gedurende het transport te volgen,<br> zodat u doorlopend op de hoogte bent van de voortgang.<br> We hebben ons logistiek proces gedigitaliseerd om u efficiënter van dienst te kunnen zijn. <br><br>
+    <b>Voer hieronder uw Track&Trace nummer in:</b>
+  </p>
+  <iframe style="width:100%;height:250px;color:#0000FF;border:none;" src="http://transtrackingsetup.magaya.net/TrackingByNumber.ashx?Types=TN,&NetworkId=33401&Size=Large&Color=btn btn-primary&Language=NL" ></iframe>
+  <a ion-button block target="_blank" href="https://tracking.magaya.com/?orgname=33401#livetrack"><ion-icon name="person"></ion-icon>&nbsp; Agent Login</a>
+</ion-content>

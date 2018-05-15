@@ -1,0 +1,8 @@
+{
+  "name": "transolution",
+  "app_id": "7d29e3b6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
